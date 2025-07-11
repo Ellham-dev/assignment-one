@@ -9,7 +9,7 @@ body {
 }
 
 body {
-    max-width: 1140px;
+    max-width: 1440px;
     margin: 0 auto;
 }
 
@@ -20,7 +20,10 @@ body {
 nav {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding:51px 0;
+    max-width: 1140px;
+    margin-inline: auto;
 }
 
 .header-button {
@@ -39,11 +42,13 @@ h1 {
     font-size: 65px;
     font-weight: bold;
     color: #252432;
-    max-width: 905px;
+    /* max-width: 905px; */
 
 }
 .benner-text{
     text-align: center;
+    margin-top: 158px;
+    padding: 0 267px;
 }
 
 .hero-button {
@@ -55,4 +60,43 @@ h1 {
     border: none;
     padding: 12px 36px;
     border-radius: 10px;
+    margin-top: 37px;
+    margin-bottom: 152px;
+}
+.actionMain{
+    max-width: 1140px;
+    margin-inline: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 116px;
+    margin-bottom: 116px;
+}
+.actionHeader{
+    font-family: Ralway;
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+    margin-bottom: 23px;
+}
+.actionPeragraf{
+    font-family: Ralway;
+    font-size: 24px;
+    font-weight: bold;
+    color: #25243296;
+    max-width: 500px;
+    margin-bottom: 23px;
+}
+
+.action-button {
+    font-family: Ralway;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #4E47FF;
+    color: white;
+    border: none;
+    padding: 12px 36px;
+    border-radius: 10px;
+    margin-top: 37px;
+    margin-bottom: 152px;
 }
