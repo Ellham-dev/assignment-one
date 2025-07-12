@@ -103,7 +103,7 @@ h1 {
     padding: 12px 36px;
     border-radius: 10px;
     margin-top: 37px;
-    margin-bottom: 152px;
+    /* margin-bottom: 152px; */
 }
 
 .activeUserPart {
@@ -287,3 +287,90 @@ h1 {
     border-radius: 10px;
     margin-bottom: 20px;
 }
+
+
+/* ContactPageStart */
+
+.contactMain {
+    max-width: 1140px;
+    margin-inline: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 115px;
+    margin-top: 163px;
+    padding-bottom: 71px;
+}
+
+.contactHeading {
+    width: 528px;
+    font-family: Ralway;
+    font-size: 97px;
+    font-weight: bold;
+    color: #000000;
+}
+
+
+.contact-form {
+    margin: 20px auto;
+}
+
+.contact-form label {
+    max-width: 497px;
+    font-family: Inter;
+    display: block;
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.contact-form input {
+    width: 497px;
+    height: 40px;
+    padding-left: 10px;
+    font-family: Inter;
+    /* display: block; */
+    font-size: 20px;
+    outline: none;
+}
+
+.contact-form textarea {
+    width: 497px;
+    font-family: Inter;
+    /* display: block; */
+    font-size: 20px;
+    outline: none;
+     padding-left: 10px;
+    height: 100px;
+    resize: vertical;
+}
+
+
+.contact-form input,
+.contact-form textarea {
+    width: 497px;
+    /* padding: 20px 32px; */
+    margin-bottom: 19px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-family: Inter;
+}
+
+.contact-form button {
+    font-size: 16px;
+    font-weight: bold;
+    width: 507px;
+    padding: 19px 200px;
+    background: #3498db;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background: #2980b9;
+}
+
+/* footerPageStart */
