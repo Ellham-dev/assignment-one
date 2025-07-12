@@ -113,8 +113,6 @@ h1 {
     border: none;
     padding: 12px 36px;
     border-radius: 10px;
-    margin-top: 37px;
-    /* margin-bottom: 152px; */
 }
 
 .activeUserPart {
@@ -144,6 +142,15 @@ h1 {
     padding-bottom: 50px;
     padding-right: 142px;
     padding-left: 142px;
+}
+.firstCount{
+    text-align: center;
+}
+.secondCount{
+    text-align: center;
+}
+.thirdCount{
+    text-align: center;
 }
 
 .userH61 {
@@ -338,8 +345,8 @@ h1 {
 
 .contact-form input {
     width: 497px;
-    height: 40px;
-    padding-left: 10px;
+    height: 70px;
+    padding-left: 32px;
     font-family: Inter;
     /* display: block; */
     font-size: 20px;
@@ -352,9 +359,10 @@ h1 {
     /* display: block; */
     font-size: 20px;
     outline: none;
-    padding-left: 10px;
+    padding-left: 32px;
     height: 100px;
     resize: vertical;
+    padding-top: 10px;
 }
 
 
@@ -371,7 +379,7 @@ h1 {
 .contact-form button {
     font-size: 16px;
     font-weight: bold;
-    width: 507px;
+    width: 529px;
     padding: 19px 200px;
     background: #3498db;
     color: white;
@@ -385,3 +393,37 @@ h1 {
 }
 
 /* footerPageStart */
+
+.footermain {
+    max-width: 1140px;
+    margin-inline: auto;
+    text-align: center;
+    padding-top: 103px;
+    padding-bottom: 104px;
+}
+
+.footerPeragraf {
+    font-family: Inter;
+    color: #8987A1;
+    font-size: 16px;
+    margin-top: 12px;
+    /* width: 531px; */
+    justify-content: center;
+
+}
+
+.footerNav {
+    font-family: Inter;
+    color: #8987A1;
+    font-size: 16px;
+    margin-top: 20px;
+    display: flex;
+    column-gap: 48px;
+    justify-content: center;
+}
+footer ul li{
+    list-style-type: none;
+}
+footer ul li a{
+    text-decoration: none;
+}
