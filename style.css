@@ -8,14 +8,24 @@ body {
     font-family: "Raleway" "Inter";
 }
 
-body {
+header {
     max-width: 1440px;
     margin: 0 auto;
-    background-color: #d6dded45;
+}
+
+footer {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.bodymain {
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: #f5f8ff;
 }
 
 .headerSection {
-    background-image: url(images/heroBenner.png);
+    background-image: url("./images/heroBenner.png");
 }
 
 nav {
@@ -72,7 +82,8 @@ h1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 116px;
+    /* margin-top: 116px; */
+    padding-top: 116px;
     margin-bottom: 116px;
 }
 
@@ -341,7 +352,7 @@ h1 {
     /* display: block; */
     font-size: 20px;
     outline: none;
-     padding-left: 10px;
+    padding-left: 10px;
     height: 100px;
     resize: vertical;
 }
